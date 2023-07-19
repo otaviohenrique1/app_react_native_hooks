@@ -13,7 +13,7 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    marginTop: 16,
+    marginTop: 24,
   },
 });
 
