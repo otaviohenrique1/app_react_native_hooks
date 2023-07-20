@@ -4,7 +4,7 @@ import Home from './src/telas/Home';
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView style={styles.tela}>
       <Home/>
       <StatusBar style="auto" />
     </SafeAreaView>
@@ -12,7 +12,8 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: {
+  tela: {
+    flex: 1,
     marginTop: 24,
   },
 });
